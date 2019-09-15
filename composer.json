@@ -1,0 +1,9 @@
+{
+    "name": "ctbuh/wkhtmltopdf-api-php-client",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ctbuh\\PdfApi\\": "src/"
+        }
+    }
+}
