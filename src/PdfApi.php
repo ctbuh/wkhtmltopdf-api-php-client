@@ -43,6 +43,9 @@ class PdfApi
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 300); // default
         curl_setopt($ch, CURLOPT_TIMEOUT, 30); // no timeout is default
 
+        // curl: (60) SSL certificate problem: unable to get local issuer certificate
+        // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             "Cache-Control: no-cache",

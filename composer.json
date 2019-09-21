@@ -1,9 +1,13 @@
 {
-    "name": "ctbuh/wkhtmltopdf-api-php-client",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "ctbuh\\PdfApi\\": "src/"
-        }
+  "name": "ctbuh/wkhtmltopdf-api-php-client",
+  "version": "1.0.1",
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ctbuh\\PdfApi\\": "src/"
     }
+  }
 }
