@@ -1,6 +1,6 @@
 {
   "name": "ctbuh/wkhtmltopdf-api-php-client",
-  "version": "1.0.1",
+  "description": "Remotely render PDFs",
   "require": {
     "ext-curl": "*",
     "ext-json": "*"
