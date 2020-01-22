@@ -28,5 +28,11 @@
      'no-outline' => true
  ]);
  ```
+ ## Other PDF stuff
  
+ ```shell
+ wget https://github.com/coherentgraphics/cpdf-binaries/raw/master/Linux-Intel-64bit/cpdf
+chmod +x cpdf
+sudo cp cpdf /usr/local/bin/
+ ```
  
