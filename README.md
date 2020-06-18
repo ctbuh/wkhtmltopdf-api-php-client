@@ -1,8 +1,11 @@
 # wkhtmltopdf-api-php-client
 
 
-`composer require ctbuh\wkhtmltopdf-api-php-client`
+## Installation
 
+```bash
+composer require ctbuh\wkhtmltopdf-api-php-client
+```
 
 ### API
 
